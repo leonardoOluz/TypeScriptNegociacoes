@@ -4,7 +4,9 @@
         "target": "ES6",
         "noEmitOnError": true,
         "noImplicitAny": true,
-        "moduleResolution": "Node"
+        "removeComments": true,
+        "moduleResolution": "Node",
+        "strictNullChecks": true
     },
     "include": ["app/**/*"]
 }
